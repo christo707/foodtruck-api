@@ -8,6 +8,12 @@ import config from './config';
 import routes from './routes';
 import Account from './model/account';
 
+console.log(' ,-----,--.  ,--.,------. ,--. ,---.,--------.,-----.');
+console.log("| .--./|  '--'  ||  .--. '|  |'   .-'--.  .--'  .-.  ' ");
+console.log("| |  | |  .--.  ||  '--'.'|  |`.  `-.  |  |  |  | |  | ");
+console.log("| '--'\\|  |  |  ||  | \\  \\|  |.-'    | |  |  '  '-'  ' ");
+console.log(" -----'`--'  `--'`--' `--'`--'`-----'  `--'   `-----'  ");
+
 let app = express();
 app.server = http.createServer(app);
 
