@@ -6,7 +6,7 @@ const LocalStrategy = require('passport-local').Strategy;
 
 import config from './config';
 import routes from './routes';
-import Account from './model/account'
+import Account from './model/account';
 
 let app = express();
 app.server = http.createServer(app);
